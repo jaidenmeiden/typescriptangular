@@ -1,4 +1,4 @@
-function llamado(target, key) {
+function log(target, key) {
     console.log(key + ' se ha llamado!');
 }
 
@@ -11,7 +11,7 @@ class ClasePersona {
         this.name = name;
     }
 
-    @llamado
+    @log
     sayMyName() {
         console.log(this.sayMyName);
     }
