@@ -26,6 +26,6 @@ class ClaseDecoratorPropiedades {
     }
 }
 
-const p: ClaseDecoratorPropiedades = new ClaseDecoratorPropiedades('Jaiden');
-p.name = 'Alfredo'; // Set: name => 'Alfredo'
-const nameFrom = p.name; // Get: name => 'Alfredo'
+const propiedad = new ClaseDecoratorPropiedades('Jaiden');
+propiedad.name = 'Alfredo'; // Set: name => 'Alfredo'
+const nameFrom = propiedad.name; // Get: name => 'Alfredo'
