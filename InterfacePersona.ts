@@ -1,6 +1,6 @@
 type Dni = number;
 
-interface Persona {
+interface InterfacePersona {
     altura?: number; // El simbolo ? determina que la variable no es obligatoria
     edad: number;
     nombre: string;
@@ -8,7 +8,7 @@ interface Persona {
     dni: Dni;
 }
 
-const persona1: Persona = {
+const interfacePersona1: InterfacePersona = {
     altura: 183,
     edad: 38,
     nombre: 'Jaiden',
@@ -16,15 +16,15 @@ const persona1: Persona = {
     dni: 11203248
 };
 
-const persona2: Persona = {
+const interfacePersona2: InterfacePersona = {
     edad: 38,
     nombre: 'Jaiden',
     apellido: 'Riaño',
     dni: 11203248
 };
 
-// Partial<T> Construye un tipo con todas las propiedades de 'Persona' establecidas como opcionales. Esta utilidad devolverá un tipo que representa todos los subconjuntos de un tipo dado.
-const persona2: Partial<Persona> = {
+// Partial<T> Construye un tipo con todas las propiedades de 'InterfacePersona' establecidas como opcionales. Esta utilidad devolverá un tipo que representa todos los subconjuntos de un tipo dado.
+const interfacePersona3: Partial<InterfacePersona> = {
     nombre: 'Jaiden',
     apellido: 'Riaño'
 };
