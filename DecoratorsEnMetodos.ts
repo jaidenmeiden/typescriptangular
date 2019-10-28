@@ -4,7 +4,7 @@ function log(target, key) {
 
 
 
-class ClasePersona {
+class ClaseDecoratorMetodos {
     private name: string;
 
     constructor(name: string) {
@@ -17,5 +17,5 @@ class ClasePersona {
     }
 }
 
-const persona: ClasePersona = new ClasePersona('Jaiden');
-persona.sayMyName(); // 'jaiden' // 'sayMyName se ha llamado'
+const decoratorMetodos: ClaseDecoratorMetodos = new ClaseDecoratorMetodos('Jaiden');
+decoratorMetodos.sayMyName(); // 'jaiden' // 'sayMyName se ha llamado'

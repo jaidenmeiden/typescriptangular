@@ -10,11 +10,11 @@ function init(target, key) {
 }
 
 @init
-class ClaseDecorator {
+class ClaseDecoratorClases {
     constructor() {}
 
     sayMyName() {}
 }
 
-const decorator: ClaseDecorator = new ClaseDecorator();
-console.log(decorator.sayMyName()); // 'Jaiden Riaño'
+const decoratorClases: ClaseDecoratorClases = new ClaseDecoratorClases();
+console.log(decoratorClases.sayMyName()); // 'Jaiden Riaño'
