@@ -56,4 +56,4 @@ class Auto extends Transporte {
     }
 }
 
-const auto: Auto = new Auto(20, 'suelo', 4);
+const auto: Auto = new Auto(20, 'avión', 4);
